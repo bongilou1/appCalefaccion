@@ -1,0 +1,35 @@
+{
+  "name": "calefaccionapp",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "buffer": "^6.0.3",
+    "expo": "~51.0.28",
+    "expo-status-bar": "~1.12.1",
+    "lucide-react-native": "^0.454.0",
+    "mqtt": "^5.10.1",
+    "paho-mqtt": "^1.1.0",
+    "precompiled-mqtt": "^4.3.14-beta",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-crypto": "^2.2.0",
+    "react-native-svg": "15.2.0",
+    "react-native-tcp": "^4.0.0",
+    "stream-browserify": "^3.0.0",
+    "expo-notifications": "~0.28.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
